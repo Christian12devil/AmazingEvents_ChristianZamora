@@ -3,11 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="./Recursos_Amazing_Events_Task_1/favicon.png"
+      type="image/x-icon"
+    />
     <link rel="stylesheet" href="./Styles.css" />
     <title>Home</title>
   </head>
   <body>
-    <div class="layout">
+    <script src="./index.js"></script>
+    <div  class="layout">
+      
       <header>
         <div>
           <img
@@ -16,114 +23,160 @@
             alt="logo"
           />
         </div>
-
         <nav>
           <a href="./index.html">Home</a>
-          <a href="./page1.html">UpComing Events</a>
+          <a href="./page1.html">Upcoming Events</a>
           <a href="./page2.html">Past Events</a>
           <a href="./page3.html">Contact</a>
           <a href="./page5.html">Stats</a>
         </nav>
       </header>
       <main>
-        <h1>Home</h1>
+        <h1>Welcome to Amazing Events</h1>
         <div class="carousel-container">
-            <div class="carousel">
-                <img src="./Recursos_Amazing_Events_Task_1/optional_banner_1.jpg" alt="Banner">
-                <img src="./Recursos_Amazing_Events_Task_1/optional_banner_2.jpg" alt="Banner">
-                <img src="./Recursos_Amazing_Events_Task_1/optional_banner_3.jpg" alt="Banner">
-            </div>
+          <div class="carousel">
+            <img 
+              src="./Recursos_Amazing_Events_Task_1/optional_banner_1.jpg"
+              alt="Banner 1"
+            />
+            <img
+              src="./Recursos_Amazing_Events_Task_1/optional_banner_2.jpg"
+              alt="Banner 2"
+            />
+            <img
+              src="./Recursos_Amazing_Events_Task_1/optional_banner_3.jpg"
+              alt="Banner 3"
+            />
+            <img
+              src="./Recursos_Amazing_Events_Task_1/optional_banner_1.jpg"
+              alt="Banner 1"
+            />
+          </div>
         </div>
-        <div class="filter-search">
-            <div class="filters">
-                <label><input type="checkbox"> Categoría 1</label>
-                <label><input type="checkbox"> Categoría 2</label>
-                <label><input type="checkbox"> Categoría 3</label>
-                <label><input type="checkbox"> Categoría 4</label>
-                <label><input type="checkbox"> Categoría 5</label>
+        <h2>Featured Events</h2>
+        <div id="contenedor" class="items_container">
+          <div  class="item" >
+            <img class="item_img"
+              src="./Recursos_Amazing_Events_Task_1/food_fair.jpg"
+              alt="Festival of the collectivities"
+            />
+            <h3 class="item_h3">"Festival of the collectivities"</h3>
+            <p class="item_p">
+              Enjoy your favorite dishes from different countries in a unique
+              event for the whole family.
+            </p>
+            <div class="item_details">
+              <span>$5</span>
+              <a class="item_details_a" href="./page4.html">Details</a>
             </div>
-            <div class="search-bar">
-                <input type="text" placeholder="Buscar...">
+          </div>
+          <div class="item">
+            <img class="item_img"
+              src="./Recursos_Amazing_Events_Task_1/outing_to_the_museum.jpg"
+              alt="Art Exhibition"
+            />
+            <h3 class="item_h3">"Art Exhibition"</h3>
+            <p class="item_p">
+              Let's go to the art museum for an incredible tour to learn about
+              the largest dinosaurs.
+            </p>
+            <div class="item_details">
+              <span>$15</span>
+              <a class="item_details_a" href="./page4.html">Details</a>
             </div>
+          </div>
+          <div class="item">
+            <img class="item_img"
+              src="./Recursos_Amazing_Events_Task_1/costume_party.jpg"
+              alt="Halloween Night"
+            />
+            <h3 class="item_h3">"Halloween Night"</h3>
+            <p class="item_p">
+              Come in your scariest costume character to win amazing prizes.
+            </p>
+            <div class="item_details">
+              <span>$12</span>
+              <a class="item_details_a" href="./page4.html">Details</a>
+            </div>
+          </div>
+          <div class="item">
+            <img class="item_img"
+              src="./Recursos_Amazing_Events_Task_1/music_concert.jpg"
+              alt="Metallica in concert"
+            />
+            <h3 class="item_h3">"Metallica in concert"</h3>
+            <p class="item_p">The only concert of the most emblematic band in the world</p>
+            <div class="item_details">
+              <span>$150</span>
+              <a class="item_details_a" href="./page4.html">Details</a>
+            </div>
+          </div>
+          <div class="item">
+            <img class="item_img"
+              src="./Recursos_Amazing_Events_Task_1/marathon.jpg"
+              alt="10K for life"
+            />
+            <h3 class="item_h3">"10K for life"</h3>
+            <p class="item_p">Come and exercise, improve your health and lifestyle.</p>
+            <div class="item_details">
+              <span>$3</span>
+              <a class="item_details_a" href="./page4.html">Details</a>
+            </div>
+          </div>
+          <div class="item">
+            <img class="item_img"
+              src="./Recursos_Amazing_Events_Task_1/books.jpg"
+              alt="School Book Fair"
+            />
+            <h3 class="item_h3">"School Book Fair"</h3>
+            <p class="item_p">Bring your unused school book and bring the one you need.</p>
+            <div class="item_details">
+              <span>$1</span>
+              <a class="item_details_a" href="./page4.html">Details</a>
+            </div>
+          </div>
+          <div class="item">
+            <img class="item_img"
+              src="./Recursos_Amazing_Events_Task_1/cinema.jpg"
+              alt="Avengers"
+            />
+            <h3 class="item_h3">"Avengers"</h3>
+            <p class="item_p">
+              Marvel's Avengers 3d premiere the start of an epic saga with your
+              best superheroes
+            </p>
+            <div class="item_details">
+              <span>$250</span>
+              <a class="item_details_a" href="./page4.html">Details</a>
+            </div>
+          </div>
         </div>
-        <div class="items-container">
-            <div class="item">
-                <img src="./Recursos_Amazing_Events_Task_1/food_fair.jpg" alt="Festival of the collectivities">
-                <h3>"Festival of the collectivities"</h3>
-                <p>Enjoy your favorite dishes from different countries in a unique event for the whole family.</p>
-                <div class="details">
-                    <span>$5</span>
-                    <a href="./page4.html">Details</a>
-                </div>
-            </div>
-            <div class="item">
-                <img src="./Recursos_Amazing_Events_Task_1/outing_to_the_museum.jpg" alt="Art Exhibition">
-                <h3>"Art Exhibition"</h3>
-                <p>Let's go to the art museum for an incredible tour to learn about the largest dinosaurs.</p>
-                <div class="details">
-                    <span>$15</span>
-                    <a href="./page4.html">Details</a>
-                </div>
-            </div>
-            <div class="item">
-                <img src="./Recursos_Amazing_Events_Task_1/costume_party.jpg" alt="Halloween Night">
-                <h3>"Halloween Night"</h3>
-                <p>Come in your scariest costume character to win amazing prizes.</p>
-                <div class="details">
-                    <span>$12</span>
-                    <a href="./page4.html">Details</a>
-                </div>
-            </div>
-            <div class="item">
-                <img src="./Recursos_Amazing_Events_Task_1/music_concert.jpg" alt="Metallica in concert">
-                <h3>"Metallica in concert"</h3>
-                <p>The only concert of the most emblematic band in the world</p>
-                <div class="details">
-                    <span>$150</span>
-                    <a href="./page4.html">Details</a>
-                </div>
-            </div>
-            <div class="item">
-                <img src="./Recursos_Amazing_Events_Task_1/marathon.jpg" alt="10K for life">
-                <h3>"10K for life"</h3>
-                <p>Come and exercise, improve your health and lifestyle.</p>
-                <div class="details">
-                    <span>$3</span>
-                    <a href="./page4.html">Details</a>
-                </div>
-            </div>
-            <div class="item">
-                <img src="./Recursos_Amazing_Events_Task_1/books.jpg" alt="School Book Fair">
-                <h3>"School Book Fair"</h3>
-                <p>Bring your unused school book and bring the one you need.</p>
-                <div class="details">
-                    <span>$1</span>
-                    <a href="./page4.html">Details</a>
-                </div>
-            </div>
-            <div class="item">
-                <img src="./Recursos_Amazing_Events_Task_1/cinema.jpg" alt="Avengers">
-                <h3>"Avengers"</h3>
-                <p>Marvel's Avengers 3d premiere the start of an epic saga with your best superheroes</p>
-                <div class="details">
-                    <span>$250</span>
-                    <a href="./page4.html">Details</a>
-                </div>
-            </div>
-        </div>  
-
+        
+        
       </main>
-
       <footer>
         <div class="social">
-            <div><img src="./Recursos_Amazing_Events_Task_1/facebook.png" class=" " alt="facebook icon"></div>
-            <div><img src="./Recursos_Amazing_Events_Task_1/instagram.png" class=" " alt="instagram icon"></div>
-            <div><img src="./Recursos_Amazing_Events_Task_1/whatsapp.png" class=" " alt="whatsapp icon"></div>
+          <a href="#"
+            ><img
+              src="./Recursos_Amazing_Events_Task_1/facebook.png"
+              alt="facebook icon"
+          /></a>
+          <a href="#"
+            ><img
+              src="./Recursos_Amazing_Events_Task_1/instagram.png"
+              alt="instagram icon"
+          /></a>
+          <a href="#"
+            ><img
+              src="./Recursos_Amazing_Events_Task_1/whatsapp.png"
+              alt="whatsapp icon"
+          /></a>
         </div>
         <div>
-            <p class="text">cohort 5</p>
+          <p class="text">cohort 5</p>
         </div>
-    </footer>
+      </footer>
     </div>
+    <script src="./index.js"></script>
   </body>
 </html>
